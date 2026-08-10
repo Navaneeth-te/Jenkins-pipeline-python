@@ -1,8 +1,7 @@
 def add(a,b):
-    retrun a+b
+    return a+b
 
 def divide(a,b):
     if b==0:
         raise ValueError("cannot divide by 0")
     return a/b
-    
